@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+openai
+supabase
+pydantic
+# corsheaders is not needed for FastAPI as it's built-in
+
