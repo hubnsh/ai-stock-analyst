@@ -95,7 +95,8 @@ const analyze = async () => {
   result.value = null;
 
   try {
-    const res = await axios.post("http://localhost:8000/analyze", {
+    // 切换到线上 Render 后端地址
+    const res = await axios.post("https://ai-stock-analyst-06pt.onrender.com/analyze", {
       symbol: symbol.value.toUpperCase(),
     });
     result.value = res.data;

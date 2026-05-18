@@ -17,8 +17,8 @@
 ## 📝 交付内容 (面试要求)
 
 ### 1. 在线访问地址
-- **前端展示**: `https://your-frontend-link.render.com` (待部署)
-- **后端 API**: `https://your-backend-link.onrender.com` (待部署)
+- **前端展示**: `https://ai-stock-analyst-frontend-0669.onrender.com` (待部署)
+- **后端 API**: `https://ai-stock-analyst-06pt.onrender.com`
 
 ### 2. Prompt 策略 (强制 JSON 输出)
 为了确保 LLM 稳定返回可解析的 JSON，我们在 [prompt_builder.py](backend/utils/prompt_builder.py) 中使用了以下策略：
