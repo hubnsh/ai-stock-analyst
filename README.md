@@ -4,7 +4,7 @@
 
 ## 🚀 核心功能
 1.  **实时数据**：调用 Alpha Vantage API 获取最新的股票行情。
-2.  **AI 深度分析**：利用 GPT-3.5 结合实时行情，生成结构化的分析报告。
+2.  **AI 深度分析**：利用 GLM 结合实时行情，生成结构化的分析报告。
 3.  **持久化存储**：所有分析记录自动存入 Supabase 数据库。
 4.  **响应式界面**：基于 Vue3 + Tailwind CSS 构建的现代感 UI。
 
@@ -14,11 +14,10 @@
 - **部署**: Render.com (推荐)
 - **数据库**: Supabase
 
-## 📝 交付内容 (面试要求)
+## 📝 交付内容 
 
 ### 1. 在线访问地址
-- **前端展示**: `https://ai-stock-analyst-frontend-0669.onrender.com` (待部署)
-- **后端 API**: `https://ai-stock-analyst-06pt.onrender.com`
+- **前端展示**: `https://ai-stock-analyst-frontend-0669.onrender.com` 
 
 ### 2. Prompt 策略 (强制 JSON 输出)
 为了确保 LLM 稳定返回可解析的 JSON，我们在 [prompt_builder.py](backend/utils/prompt_builder.py) 中使用了以下策略：
